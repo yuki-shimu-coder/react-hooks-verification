@@ -1,6 +1,3 @@
-// src/containers/Home.js
-
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -10,7 +7,7 @@ const Home = () => {
 			<p>This is the homepage of our application. Feel free to explore!</p>
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				<Link to="/">Home</Link>
-				<Link to="/about">About</Link>
+				<Link to="/use-render-info">UseRenderInfo</Link>
 			</div>
 		</div>
 	);

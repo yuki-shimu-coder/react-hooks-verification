@@ -1,14 +1,13 @@
-// Routing.js
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../components/Home";
-import About from "../components/About";
+import UseRenderInfoParent from "../components/UseRenderInfoParent";
 
 const Routing = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
 				<Route path={`/`} element={<Home />} />
-				<Route path={`/about`} element={<About />} />
+				<Route path={`/use-render-info`} element={<UseRenderInfoParent />} />
 			</Routes>
 		</BrowserRouter>
 	);
